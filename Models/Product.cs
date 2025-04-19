@@ -8,7 +8,6 @@ namespace MyShopingApp9._0.Models
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
-
         public string? Description { get; set; }
         public double Price { get; set; }
         public string? imageUrl { get; set; }
